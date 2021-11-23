@@ -7,35 +7,45 @@
 
 
 body{
-    background-image: url('bg.jpeg');
+    /* background-image: url('bg.jpeg'); */
     font-family: 'Times New Roman', Times, serif;
     display: grid;
     text-align: center;
     height: 100vh;
-    color: rgb(223, 186, 235);
+    background-color: #8E7DBE;
 }
 
 h1{
     color: black;
+    font-family:cursive;
+    font-size: medium;
+    height: 3px;
 }
 
 .box {
     height: 400px;
     width: 300px;
     color: rgb(22, 22, 22);
-    background-color: rgb(250, 85, 8);
-    padding: 4rem;
+    background-color: #9687c0;
+    padding: 3rem;
     margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0, 16);
     border-radius: 50px;
+    border-color: black;
+    overflow: auto;
 }
 
 .box p { 
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .box .avatar {
-    width: 200px;
+    width: 150px;
+    border-radius: 50%;
+    border-color: black;
 }
 
 .box .redes-sociais{
@@ -51,7 +61,16 @@ h1{
     padding-right: 2px;
 }
 
+.box .redes-sociais a:link{
+    text-decoration-line: none;
+    text-decoration-color: black;
+}
+
+.box .redes-sociais a:hover{
+    color:#305fc5;
+    text-decoration: none;
+}
+
 .box .redes-sociais li {
     margin-right: 1rem;
-
 }
