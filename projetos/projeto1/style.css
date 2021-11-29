@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(253, 251, 251);
+
+}
+
+.tudo{
+        width: 100%;
+        background-image:url("calcifer5.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: 0.3; */
+}
+
+#cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:orange;
+    text-align: center;
+}
+
+#cabecalho #titulo{
+    font-family: fantasy;
+    font-size: medium;
+}
+
+.organizacao{
+    display: flex;
+    width: 900px;
+    height: 97vh;
+    margin: 0 auto;
+}
+
+#navegacao{
+    margin-top: 10px;
+    border-radius: 20px;
+    border-style:hidden;
+    border-color: yellow;
+}
+
+#navegacao a{
+    color: orangered;
+    text-decoration-line:none;
+}
+
+#navegacao a:hover{
+    text-decoration-line: none;
+    color:sandybrown;
+}
+
+#novidades{
+    /* width: 40%; */
+    text-align: justify;
+    text-shadow: 1px 1px 2px black;
+    border-style: unset;
+    border-color: yellow;
+    background-color: rgba(252, 252, 252, 0.3);
+    background-blend-mode:screen;
+    line-height: 0.9;
+    color:lightcoral;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+#novidades h1{
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: medium;
+}
+
+.avatar{
+    margin-bottom: 10px;
+    /* filter: blur(8px); */
+}
+
+#sessao{
+    /* width: 50%; */
+    text-align: justify;
+    border-style:hidden;
+    border-color: yellow;
+    background-color: rgba(252, 252, 252, 0.3);
+    text-shadow: 1px 1px 2px black;
+    border-style: unset;
+    color:lightcoral;
+    line-height: 0.8;
+    font-size: small;
+    margin-top: 10px;
+    text-overflow:clip;
+}
+
+#minha_foto{
+    width: 50px;
+    border: crimson;
+    border-style:none;
+    border-radius: 50%;
+    border-width: 1px;
+}
+
+#licoes_aprendidas{
+    margin-top: 50px;
+    display: inline-block;
+    border-color: blue;
+    color: black;
+    border-radius: 1px;
+    background-color: rgba(252, 252, 252, 0.3);
+    border-style:hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#licoes_a_aprender{
+    display: inline-block;
+    margin-left: 30px;
+    border-color:blue;
+    background-color: rgba(252, 252, 252, 0.3);
+    border: radius 1px;
+    border-style: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lado-esquerdo{
+    margin-top: 60px;
+    width: 500px;
+    opacity: 1;
+}
+
+/* Consultei https://blog.betrybe.com/css/css-position/ para referências. Meu cérebro pifou no momento. */
+.lado-direito{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#rodape {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    background-color: orange;
+    width: 100%;
+}
+
+#rodape a{
+    color:black;
+    text-decoration-line: none;
+    height: 30%;
+}
+
+#rodape a:hover{
+    color:yellow;
+}
